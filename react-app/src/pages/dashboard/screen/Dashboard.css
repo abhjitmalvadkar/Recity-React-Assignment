@@ -1,0 +1,4 @@
+.dashboard-screen-wrapper {
+  height: calc(100vh - 8rem);
+  overflow: auto;
+}

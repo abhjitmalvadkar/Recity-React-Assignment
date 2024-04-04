@@ -1,0 +1,12 @@
+.wrapper-container {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.outlet {
+  flex-grow: 1;
+}

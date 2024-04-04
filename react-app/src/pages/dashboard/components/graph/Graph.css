@@ -1,0 +1,13 @@
+.graph-container {
+  margin-top: 2rem;
+  height: 40rem;
+}
+
+.graph-title {
+  margin-bottom: 1rem;
+}
+
+.recharts-cartesian-axis-line,
+.recharts-cartesian-axis-tick-line {
+  display: none;
+}

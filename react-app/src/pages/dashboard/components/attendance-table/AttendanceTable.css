@@ -1,0 +1,45 @@
+.extra-wrapper {
+  height: 39rem;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.attendance-table-wrapper {
+  height: 39rem;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to top, #15D7B9, #04B0E4);
+  border-radius: 17px 17px 7px 7px;
+}
+
+.attendance-table-content {
+  background: #FFFFFF;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  border-radius: 15px 15px 5px 5px;
+  overflow: clip;
+}
+
+.attendance-table-heading {
+  height: 4rem;
+  background: linear-gradient(to left, #15D7B9, #04B0E4);
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.each-attendance-row {
+  line-height: 4rem;
+  font-size: 1.4rem;
+}
+
+.check{
+  color: #24D470;
+}
+
+.cross{
+  color: #EC2B23;
+}

@@ -1,0 +1,13 @@
+.section-one-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+.section-one-card {
+  padding-bottom: 2rem;
+}
+
+/* .section-one-card:last-child { */
+/*   padding-right: 0; */
+/* } */

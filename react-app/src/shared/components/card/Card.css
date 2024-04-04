@@ -1,0 +1,41 @@
+.card-wrapper {
+  position: relative;
+  background: linear-gradient(to top, #15D7B9, #04B0E4);
+  border-radius: 17px 17px 7px 7px;
+  height: 14rem;
+}
+
+.card-content {
+  background: #FFFFFF;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  border-radius: 15px 15px 5px 5px;
+  overflow: clip;
+}
+
+.card-heading {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #15D7B9, #04B0E4);
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-heading.vertical {
+  background: linear-gradient(to top, #15D7B9, #04B0E4);
+}
+
+.card-value {
+  height: calc(10rem - 8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: bolder;
+}

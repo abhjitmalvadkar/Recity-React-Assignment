@@ -1,0 +1,19 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 3rem;
+  font-weight: 500;
+}
